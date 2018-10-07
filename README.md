@@ -211,7 +211,7 @@ Non Functional tests
 Instructions for running tests :
 --------------------------------
 prerequisite - Budget App is running on locahost port 3000
-1. Clone github repository
+1. Copy e2e, tsconfig.json and overwrite package.json from "modus-create-assignment1" github repository into "budgeting-sample-app-webpack2" folder
 2. Run npm install to install dependent libraries
-3. If you get webdriver error - run comand "webdriver-manager update" from "modus-create-assignment\node_modules\protractor\node_modules\.bin"
-3. Run test suite using 'npm run e2e' command from root folder "modus-create-assignment"
+3. Run test suite using 'npm run e2e' command from root folder "modus-create-assignment1"
+(If you get webdriver error at step3 - run command "webdriver-manager update" from "modus-create-assignment\node_modules\protractor\node_modules\.bin")
